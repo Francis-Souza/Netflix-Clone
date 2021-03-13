@@ -1,0 +1,148 @@
+:root {
+  /*Criando Variáveis na Raiz*/
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  /* Reset CSS*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body {
+  background: var(--preta); /*Usando a Variável*/  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  background-color: #141414;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 15px;
+}
+
+header nav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/*filme principal*/
+
+.filme-principal {
+  font-size: 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 100%),
+    url("../img/thequeengambit.png");
+  height: 950px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.titulo {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.botao:hover {
+  color: #141414;
+  background-color: white;
+  transition: 0.3s ease all;
+}
+
+.botao i {
+  margin-right: 8px;
+}
+
+.rolagem {
+  color: white;
+  font-family: Poppins, Arial, Helvetica, sans-serif;  
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #000000;
+  position: absolute;
+  background: url("../img/icone-mouse.png") no-repeat center right;
+  bottom: 10%;
+  left: 50%;
+  height: 50px;
+  width: 260px;
+  }
+
+.container {
+  margin-left: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #aaa;  
+}
+
+
+.item img {
+  width: 100%;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -ms-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.item img:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.box-cartaz {
+  height: 10%;
+  height: 10%;
+  display: block;
+}
+
+.titulo-filmes {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.titulo-series {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

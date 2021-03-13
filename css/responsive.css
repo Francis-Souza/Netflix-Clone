@@ -1,0 +1,90 @@
+@media screen and (max-width: 760px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+  }
+
+  .filme-principal {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url("../img/mini-cartaz.png");
+  }
+
+  .filme-principal .container {
+    width: 80%;
+  }
+
+  .filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 750px;
+    text-align: justify;
+  }
+
+  .botoes {
+    margin-top: -400px;
+  }
+
+  .botao {
+    margin-top: 5px;
+    width: 250px;
+  }
+  .rolagem {
+    width: 220px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1500px) {
+  .filme-principal {
+    height: 660px;
+  }
+
+  .filme-principal .descricao {
+    margin-top: 2px;
+    margin-bottom: -80px;
+  }
+  .botoes {
+    margin-top: 460px;
+  }
+
+  .rolagem {
+    background: url("../img/icone-mouse-pequeno.png") no-repeat center right;
+    left: 65%;
+    bottom: 10px;
+    height: 30px;
+    width: 240px;
+  }
+  .filme-principal .container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1501px) {
+  .filme-principal {
+    height: 940px;
+  }
+
+  .filme-principal .container {
+    width: 50%;
+  }
+  .filme-principal .descricao {
+    margin-top: 80px;
+    margin-bottom: 800px;
+    text-align: justify;
+  }
+
+  .botoes {
+    margin-top: -60px;
+  }
+
+  .rolagem {
+    background: url("../img/icone-mouse-pequeno.png") no-repeat center right;
+    left: 65%;
+    bottom: 10px;
+    height: 30px;
+    width: 240px;
+  }
+}

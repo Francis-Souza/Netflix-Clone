@@ -1,2 +1,2 @@
-# netflix-clone
+# Projeto netflix-clone
 Exercício Digital Innovation One

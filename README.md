@@ -1,2 +1,2 @@
-# Projeto netflix-clone
+# Projeto Instagram-clone
 Exercício Digital Innovation One
